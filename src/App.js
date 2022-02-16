@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import { API_KEY  } from './Constants/index';
+
+console.log(API_KEY);
 
 function App() {
   return (
