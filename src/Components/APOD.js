@@ -1,5 +1,4 @@
 import React from 'react';
-// import App from '../../src/App';
 
 const APOD = props => {
 
@@ -7,7 +6,9 @@ const APOD = props => {
         <div className='data'>
             <h1>{props.data.title}</h1>
             <p>{props.data.date}</p>
-            <p>{props.data.copyright}</p>
+            <iframe src={props.data.url}></iframe>
+            <p>{props.data.explanation}</p>
+            <p>&copy;{props.data.copyright}</p>
         </div>  
   )
 }
