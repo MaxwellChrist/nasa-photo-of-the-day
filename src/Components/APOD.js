@@ -1,18 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react';
+// import App from '../../src/App';
 
 const APOD = props => {
 
-    // const { copyW, date, exp, title, url } = props;
-
-    
     return (
-        <div className='APODData'>
-            {props.info.name}
-            <button onClick={() => props.openDetails(props.info.id)}>
-                See details
-            </button>
-        </div>
-        
+        <div className='data'>
+            <h1>{props.data.title}</h1>
+            <p>{props.data.date}</p>
+            <p>{props.data.copyright}</p>
+        </div>  
   )
 }
 
