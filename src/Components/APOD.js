@@ -28,7 +28,6 @@ const StyledApod = styled.div`
   justify-content: center;
   align-items: center;
   padding: 20px;
-  border-bottom: 10px solid black;
   background: ${props => props.theme.white};
   &:hover {
     animation: ${kf} 0.5s infinite linear;
