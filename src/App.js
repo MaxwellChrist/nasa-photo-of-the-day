@@ -35,7 +35,6 @@ function App() {
   return (
     <div className="App">
       {all && <APOD data={all}/> }
-      <hr />
       {neows && <Asteroids asteroidData={neows}/> }
     </div>
   );
